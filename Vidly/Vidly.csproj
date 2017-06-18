@@ -224,6 +224,22 @@
     <Compile Include="Migrations\201706181651077_UpdateExistingMembershipTypeRecords.Designer.cs">
       <DependentUpon>201706181651077_UpdateExistingMembershipTypeRecords.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706181709297_UpdateExistingMembershipTypeRecordsII.cs" />
+    <Compile Include="Migrations\201706181709297_UpdateExistingMembershipTypeRecordsII.Designer.cs">
+      <DependentUpon>201706181709297_UpdateExistingMembershipTypeRecordsII.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706181710495_MembershipTypeNameNotNullable.cs" />
+    <Compile Include="Migrations\201706181710495_MembershipTypeNameNotNullable.Designer.cs">
+      <DependentUpon>201706181710495_MembershipTypeNameNotNullable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706181744531_MeBeingDumbMVCEISH.cs" />
+    <Compile Include="Migrations\201706181744531_MeBeingDumbMVCEISH.Designer.cs">
+      <DependentUpon>201706181744531_MeBeingDumbMVCEISH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706181811344_AddBirthdatetoCustomerDetails.cs" />
+    <Compile Include="Migrations\201706181811344_AddBirthdatetoCustomerDetails.Designer.cs">
+      <DependentUpon>201706181811344_AddBirthdatetoCustomerDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -338,6 +354,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706181651077_UpdateExistingMembershipTypeRecords.resx">
       <DependentUpon>201706181651077_UpdateExistingMembershipTypeRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706181709297_UpdateExistingMembershipTypeRecordsII.resx">
+      <DependentUpon>201706181709297_UpdateExistingMembershipTypeRecordsII.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706181710495_MembershipTypeNameNotNullable.resx">
+      <DependentUpon>201706181710495_MembershipTypeNameNotNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706181744531_MeBeingDumbMVCEISH.resx">
+      <DependentUpon>201706181744531_MeBeingDumbMVCEISH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706181811344_AddBirthdatetoCustomerDetails.resx">
+      <DependentUpon>201706181811344_AddBirthdatetoCustomerDetails.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
