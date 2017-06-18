@@ -189,6 +189,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
@@ -214,6 +215,14 @@
     <Compile Include="Migrations\201706161810184_ApplyMigrationsToCustomerName.cs" />
     <Compile Include="Migrations\201706161810184_ApplyMigrationsToCustomerName.Designer.cs">
       <DependentUpon>201706161810184_ApplyMigrationsToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706181644449_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\201706181644449_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>201706181644449_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706181651077_UpdateExistingMembershipTypeRecords.cs" />
+    <Compile Include="Migrations\201706181651077_UpdateExistingMembershipTypeRecords.Designer.cs">
+      <DependentUpon>201706181651077_UpdateExistingMembershipTypeRecords.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -286,6 +295,9 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Movies\Random.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
+    <Content Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Customers\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -320,6 +332,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706161810184_ApplyMigrationsToCustomerName.resx">
       <DependentUpon>201706161810184_ApplyMigrationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706181644449_AddNameToMembershipType.resx">
+      <DependentUpon>201706181644449_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706181651077_UpdateExistingMembershipTypeRecords.resx">
+      <DependentUpon>201706181651077_UpdateExistingMembershipTypeRecords.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
